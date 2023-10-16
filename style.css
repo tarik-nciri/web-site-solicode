@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    height: 80px;
+}
+.liste2 :hover {
+    background-color: #98E4FF;
+}
+
+ li a img {
+width: 130px;
+display: block;
+margin-left: 20px;
+}
+.liste1 li a{
+margin-top: -10px;
+}
+.liste2 {
+    list-style-type: none;
+    overflow: hidden;
+    padding-top: 15px;
+}
+
+.liste2 li {
+    display: inline-block;
+}
+
+.liste2 li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+}
+
+
+
+
+
+
+div a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    display:block;
+    font-size: 18px;
+  }
+  .liste2 {
+    display: block;
+
+  }
+  .liste2 li {display: inline-block;}
+  .liste2 li:hover ul {display: block;}
+  .liste2 li ul {
+    position: absolute;
+    right: 0;
+    width: 106px;
+    display: none;
+  }
+  .liste2 li ul li { 
+    background: #ffffff; 
+    display: block; 
+  }
+  .liste2 li ul li a {display:block ;} 
+  .liste2 li ul li:hover {background: #666;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    width: 90%;
+    height: 500px;
+    background-color: #98E4FF;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.container {
+    /* display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(183, 183, 183, 0.457);   
+
+}
+
+.container .cont1 {
+    font-size: 30px;
+    padding-right: 100px;
+    width: 50%;   
+
+}
+
+.cont1 img {
+    height: 50px;    
+
+}
+
+img {
+    width: 300px;    
+      border-radius: 20px;
+
+}
+
+.cont1 p {
+    font-size: 18px;
+}
+
+.cont1 .inscri a {
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+.cont1 .inscri :hover {
+    background-color: #687EFF
+    ;
+}
+
+.cont1 .inscri {
+    margin-top: 10px;
+}
+
+.line {
+    margin-top: 40px;
+    margin-left: 70px;
+    width: 90%;
+    height: 4px;
+    background-color: rgb(159, 158, 158);
+}
+
+.informatique h2 {
+    font-size: 50px;
+    text-align: center;
+    color: #687EFF;
+    padding: 20px;
+}
+
+.informatique p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    width: 95%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px 20px;
+    text-align: center;
+    margin: 5em auto;
+}
+
+.icone {
+    box-shadow: 0px 0px 9px #dadada75;
+    border-radius: 4px;
+    padding: 20px 12px 30px 12px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icone h4{
+    color:#687EFF;
+}
+.iconee h4{
+    color:#687EFF;
+    font-size: 20px;
+}
+.grid2 {
+    display: grid;
+    width: 95%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px 20px;
+    text-align: center;
+    margin: 1em auto;
+
+     }
+     .iconee {
+        box-shadow: 0px 0px 9px #dadada75;
+        border-radius: 4px;
+        padding: 20px 12px 30px -10px;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-bottom: 2px solid black;
+    }
+    .iconee img{
+        width: 100%;
+    }
+    .grid2 :hover{
+        background-color: #4bcfff;
+    }
+    .footer{
+        width: 100%;
+        height: 200px;
+        background-color: #80B3FF;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1px 20px;
+        text-align: center;
+    }
+     .row{
+        padding-top: 30%;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5px black;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
+      
+
+
